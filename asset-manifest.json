@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Movie_Rate/static/css/main.9cc3a181.css",
+    "main.js": "/Movie_Rate/static/js/main.29924b6c.js",
+    "static/js/453.11d5da13.chunk.js": "/Movie_Rate/static/js/453.11d5da13.chunk.js",
+    "index.html": "/Movie_Rate/index.html",
+    "main.9cc3a181.css.map": "/Movie_Rate/static/css/main.9cc3a181.css.map",
+    "main.29924b6c.js.map": "/Movie_Rate/static/js/main.29924b6c.js.map",
+    "453.11d5da13.chunk.js.map": "/Movie_Rate/static/js/453.11d5da13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc3a181.css",
+    "static/js/main.29924b6c.js"
+  ]
+}
