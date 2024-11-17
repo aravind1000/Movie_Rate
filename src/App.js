@@ -6,10 +6,6 @@ import Search from "./components/Search";
 import Result from "./components/Result";
 import Detail from "./components/Detail";
 
-
-
-
-
 function App() {
     const [state, setState] = useState({
         search:'',
@@ -23,7 +19,7 @@ function App() {
         })
     }
     const openDetail = (id) => {
-        axios.get('http://www.omdbapi.com/?i='+id+'&apikey=6f1b164d')
+        axios.get('http://www.omdbapi.com/?i='+id+'&apikey=yourAPIkey')
         .then(({data}) => {
             setState((prevState) => {return {...prevState, selected: data}})
         })
@@ -32,7 +28,7 @@ function App() {
 
     const SearchResult = (e) => {
         if(e.key === "Enter") {
-            axios.get('http://www.omdbapi.com/?i=tt3896198&apikey=6f1b164d'+"&s="+state.search)
+            axios.get('http://www.omdbapi.com/?i=tt3896198&apikey=yourAPIkey'+"&s="+state.search)
             .then(res => {
                 setState(prevState => {
                     return{...prevState, results: res.data.Search};
